@@ -7,5 +7,3 @@ Vendas = pd.read_excel(df, sheet_name='DADOS')
 
 print(Vendas.head())
 print(Vendas.info())
-
-#Test

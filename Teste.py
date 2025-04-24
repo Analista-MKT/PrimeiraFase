@@ -5,5 +5,6 @@ df = r'C:\Users\pereirat\OneDrive - De Sangosse Agroquímica Ltda\Documentos\1.0
 
 Vendas = pd.read_excel(df, sheet_name='DADOS')
 
-print(Vendas.head())
-print(Vendas.info())
+
+#print(Vendas.head())
+#print(Vendas.info())

@@ -2,10 +2,10 @@ import pandas as pd
 from functions import import_file
 
 repositorio = 'C:\Users\pereirat\OneDrive - De Sangosse Agroquímica Ltda\Documentos\4.0 - PROGRAMAÇÃO E BANCO DE DADOS'
-arquivo = 'faturamento'
+arquivo = 'faturamento.xlsx'
 planilha = 'DADOS'
-df_vendas = import_file(repositorio, arquivo, planilha)
 
+df_vendas = import_file(repositorio, arquivo, planilha)
 
 print(df_vendas.head())
 
